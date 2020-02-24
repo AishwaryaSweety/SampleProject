@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:20:12.868Z",
+        "line": 3,
+        "name": "NewUser SignUp",
+        "description": "",
+        "id": "signup;newuser-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to URL",
+            "match": {
+              "location": "CS5.user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"Lalitha\" and 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 7
+                },
+                {
+                  "val": "123",
+                  "offset": 21
+                }
+              ],
+              "location": "CS5.enters_and(String,Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on signup button",
+            "match": {
+              "location": "CS5.user_click_on_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the welcome page is displayed",
+            "match": {
+              "location": "CS5.the_welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@uat"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-24T05:20:12.923Z",
+        "line": 10,
+        "name": "Login existing user",
+        "description": "",
+        "id": "signup;login-existing-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters user name",
+            "match": {
+              "location": "CS5.user_enters_user_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters password",
+            "match": {
+              "location": "CS5.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "CS5.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "homepage is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unit"
+          }
+        ]
+      }
+    ],
+    "name": "SignUp",
+    "description": "",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "classpath:p9/CS5.feature",
+    "tags": []
+  }
+]
